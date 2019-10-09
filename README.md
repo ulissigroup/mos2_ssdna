@@ -1,6 +1,7 @@
-# SSDNA MoS2 interaction analysis with VMD and NAMD molecular simulations
+# SSDNA MoS2 interaction analysis
+# with VMD and NAMD molecular simulations
 
-# Ulissi Group
+# Author
 Hyukjae Kwark
 
 # Objective
