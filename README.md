@@ -1,5 +1,4 @@
-# SSDNA MoS2 interaction analysis
-# with VMD and NAMD molecular simulations
+# SSDNA MoS2 interaction analysis </br> with VMD and NAMD molecular simulations
 
 # Author
 Hyukjae Kwark
