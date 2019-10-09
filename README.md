@@ -8,12 +8,13 @@ Use all-atom molecular simulations to investigate the sequence dependence of sin
 
 
 # Folder structure
-| large_sheet_results | basic files : Includes all the basic file requirements necessary to run a simulation. Would have to change
-build_MoS2_b.tcl or buid_MoS2.tcl depending on which ssDNA you are using. | solvent_add_trial : Includes trials for adding solvent (water) into the MoS2 - ssDNA system |
-|-------------|-------------|-------------|
-| small_sheet_results | fixed_mos2_solvate_output_().txt are all output interaction energy files for a small MoS2 ssDNA system | ()_struture files folder includes all strucutre files generated through running the calculations.
-|-------------|-------------|-------------|
-| sample_plot_folder | CA10.txt ~ T20.txt are sample interaction energy results. | Plot_interaction_energy.ipynb is a jupyter notebook that contains plots using these text files.
+* large_sheet_results/basic files : Includes all the basic file requirements necessary to run a simulation. Would have to change
+build_MoS2_b.tcl (build_MoS2_b_solvate.tcl) or buid_MoS2.tcl depending on which ssDNA you are using.
+* large_sheet_results/solvent_add_trial : Includes trials for adding solvent (water) into the MoS2 - ssDNA system
+* small_sheet_results/fixed_mos2_solvate_output_().txt : All output interaction energy files for a small MoS2 ssDNA system
+* small_sheet_results/()_struture files folder includes all strucutre files generated through running the calculations.
+* sample_plot_folder/CA10.txt ~ T20.txt : Sample interaction energy results.
+* sample_plot_folder/Plot_interaction_energy.ipynb : A jupyter notebook that contains plots using these text files.
 
 
 # How to run calculations
