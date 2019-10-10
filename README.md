@@ -80,7 +80,8 @@ Please reference to Plot_interaction_energy.ipynb inside the sample_plot_folder 
 
 
 # Future Steps
-Unfortunately, I have failed to produce a nicely settled interaction energy plot with a system including solvate (water).
+The interaction energy plots for small sheet and largesheet data are available. 
+Unfortunately, I have failed to produce a nicely settled (converging) interaction energy plot with a system including solvate (water).
 I have tried turning on a flexible cell (to avoid pressure explosion) and turning fixedAtom off, which did not work well as desired.
 The following observed problem was that the MoS2 sheet expands as time step increases, with out staying still in there original position. 
 One solution could be adding a spring between Mo and S molecules to apply a potentail E = 1/2 k x^2 between different MoS2 particles and layers, but needs to be further implemented to
